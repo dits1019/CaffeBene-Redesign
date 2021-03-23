@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="#000"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="20dp"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="#000"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="20dp"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="#000"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_baseline_person_24" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MY베네"
+                android:textColor="#000"
+                android:textSize="17sp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="10dp"
+            android:background="#000"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_baseline_credit_card_24"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MY카드"
+                android:textColor="#000"
+                android:textSize="17sp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="10dp"
+            android:background="#000"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_baseline_local_play_24"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MY쿠폰"
+                android:textColor="#000"
+                android:textSize="17sp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_marginBottom="40dp">
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="#000"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="20dp"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="#000"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="20dp"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="#000"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="#000"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="20dp"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="#000"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="20dp"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="#000"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_baseline_event_note_24" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="이벤트"
+                android:textColor="#000"
+                android:textSize="17sp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="10dp"
+            android:background="#000"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_baseline_menu_book_24"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="메뉴소개"
+                android:textColor="#000"
+                android:textSize="17sp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="10dp"
+            android:background="#000"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_outline_location_on_24"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="매장찾기"
+                android:textColor="#000"
+                android:textSize="17sp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_marginBottom="40dp">
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="#000"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="20dp"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="#000"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="20dp"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="#000"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="#000"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="20dp"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="#000"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="20dp"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="#000"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_baseline_receipt_24" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="이용안내"
+                android:textColor="#000"
+                android:textSize="17sp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="10dp"
+            android:background="#000"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_baseline_feedback_24"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="공지사항"
+                android:textColor="#000"
+                android:textSize="17sp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="10dp"
+            android:background="#000"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_baseline_phonelink_24"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="사이렌오더"
+                android:textColor="#000"
+                android:textSize="17sp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="#000"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="20dp"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="#000"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="20dp"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="#000"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/person_icon"
+        android:layout_marginHorizontal="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/setLogin"
+            android:textSize="30sp"
+            android:textColor="#000"
+            android:layout_gravity="center_vertical"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/logo_text"/>
+
+
+</LinearLayout>
